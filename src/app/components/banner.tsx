@@ -7,10 +7,10 @@ import smallImag from "../../../public/Images/small.png";
 const Banner = () => {
   return (
     <div className="bg-[#3B3B3B] h-[100vh] ">
-      <div className="container m-auto md:flex justify-around items-end  px-4 md:px-7 pt-10 md:pt-16 pb-12 w-[100%]">
+      <div className=" m-auto md:flex justify-around items-end  px-4 md:px-7 pt-10 md:pt-16 pb-12 w-[100%]">
         <div className="md:w-[40%] md:m-0 m-auto">
           <h1
-            className="font-semibold  leading-[83px]  md:w-[500px]   text-[34px] lg:text-[76px] text-white"
+            className="font-semibold  lead-[55px] lg:leading-[83px]  lg:w-[500px]   text-[34px] lg:text-[76px] text-white"
           >
             Discover Digital Art & Collect NFTs{" "}
           </h1>
