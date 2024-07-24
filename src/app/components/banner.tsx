@@ -7,7 +7,7 @@ import smallImag from "../../../public/Images/small.png";
 const Banner = () => {
   return (
     <div className="bg-[#3B3B3B] ">
-      <div className=" md:flex justify-around items-end  px-4 md:px-7 pt-10 md:pt-16 pb-12 w-[100%]">
+      <div className="container m-auto md:flex justify-around items-end  px-4 md:px-7 pt-10 md:pt-16 pb-12 w-[100%]">
         <div className="md:w-[40%] md:m-0 m-auto">
           <h1
             className="font-semibold  leading-[83px]  md:w-[500px]   text-[34px] lg:text-[76px] text-white"
@@ -22,7 +22,7 @@ const Banner = () => {
 
           <Link
             href="/contact"
-            className="hidden  lg:mt-0 mt-6  w-fit md:flex items-center justify-evenly bg-[#A259FF] py-3 px-5 rounded-xl"
+            className="hidden  lg:mt-0 mt-6  w-fit md:flex items-center justify-evenly bg-[#A259FF] py-4 px-8 rounded-xl"
           >
             <svg
               width="20"
