@@ -7,7 +7,7 @@ import smallImag from "../../../public/Images/small.png";
 const Banner = () => {
   return (
     <div className="bg-[#3B3B3B] ">
-      <div className=" md:flex justify-around  px-4 md:px-7 pt-10 md:pt-16 pb-12 w-[100%]">
+      <div className=" md:flex justify-around items-end  px-4 md:px-7 pt-10 md:pt-16 pb-12 w-[100%]">
         <div className="md:w-[40%] md:m-0 m-auto">
           <h1
             className="font-semibold     md:w-[400px] text-[34px] lg:text-[56px] text-white"
