@@ -6,7 +6,7 @@ import smallImag from "../../../public/Images/small.png";
 
 const Banner = () => {
   return (
-    <div className="bg-[#3B3B3B] ">
+    <div className="bg-[#3B3B3B] h-[100vh] ">
       <div className="container m-auto md:flex justify-around items-end  px-4 md:px-7 pt-10 md:pt-16 pb-12 w-[100%]">
         <div className="md:w-[40%] md:m-0 m-auto">
           <h1
@@ -66,15 +66,15 @@ const Banner = () => {
           <div className="md:flex  hidden justify-start mt-6">
             <div className="sm:mr-12 mr-4">
                 <h3 className="text-[28px] text-white font-semibold">240k+ </h3>
-                <span className="text-[18px] text-white font-semibold">Total Sale </span>
+                <span className="text-[24px] text-white ">Total Sale </span>
             </div>
             <div className="sm:mr-12 mr-4">
                 <h3 className="text-[28px] text-white font-semibold">100k+</h3>
-                <span className="text-[18px] text-white font-semibold">Auctions </span>
+                <span className="text-[24px] text-white ">Auctions </span>
             </div>
             <div className="sm:mr-12 mr-4">
                 <h3 className="text-[28px] text-white font-semibold">240k+ </h3>
-                <span className="text-[18px] text-white font-semibold">Artists </span>
+                <span className="text-[24px] text-white">Artists </span>
             </div>
           </div>
         </div>
