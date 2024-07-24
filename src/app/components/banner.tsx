@@ -80,9 +80,9 @@ const Banner = () => {
         </div>
 
         <div className="md:mt-3  mt-4">
-          <Image src={BannerImge} alt="" className="md:w-[400px] w-auto m-auto" />
+          <Image src={BannerImge} alt="" className="md:w-[400px]  lg:w-[500px] w-[100%] m-auto  lg:m-0" />
          
-          <div className="bg-[#737373] p-5 rounded-b-2xl md:w-[400px]  lg:m-0 m-auto">
+          <div className="bg-[#737373] p-5 rounded-b-2xl md:w-[400px] lg:w-[500px]   lg:m-0 m-auto">
             <h2 className="text-[18px] text-white font-medium">
               Space Walking
             </h2>
