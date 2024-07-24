@@ -10,11 +10,11 @@ const Banner = () => {
       <div className=" md:flex justify-around items-end  px-4 md:px-7 pt-10 md:pt-16 pb-12 w-[100%]">
         <div className="md:w-[40%] md:m-0 m-auto">
           <h1
-            className="font-semibold     md:w-[400px] text-[34px] lg:text-[56px] text-white"
+            className="font-semibold  leading-[83px]  md:w-[500px]   text-[34px] lg:text-[76px] text-white"
           >
             Discover Digital Art & Collect NFTs{" "}
           </h1>
-          <p className="mt-4 text-[16px] lg:text-[18px] text-white">
+          <p className="mt-4 text-[16px] lg:text-[22px] text-white">
             NFT marketplace UI created with Anima for Figma. Collect, buy and
             sell art from more than 20k NFT artists.
           </p>
